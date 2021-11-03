@@ -17,6 +17,15 @@ The problem occurs in very specific circumstances. Examples of code that causes 
 </template>
 ```
 
+```vue
+<template>
+  <div data-test="
+        static
+        class">
+  </div>
+</template>
+```
+
 ## Succeeding code
 The following examples do not cause infinite loops.
 
