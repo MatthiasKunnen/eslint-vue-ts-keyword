@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "forceConsistentCasingInFileNames": true,
+        "module": "esnext",
+        "outDir": "dist",
+        "strict": true,
+        "target": "esnext",
+    },
+    "include": [
+        "src/**/*.vue"
+    ]
+}

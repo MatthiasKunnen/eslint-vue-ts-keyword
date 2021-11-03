@@ -1,0 +1,439 @@
+DEBUG="*" eslint src/limited.vue
+  eslint:cli CLI args: [ 'src/limited.vue', '--debug' ] +0ms
+  eslint:cli Running on files +3ms
+  eslintrc:config-array-factory Loading JSON config file: package.json +0ms
+  eslintrc:ignore-pattern Create with: [ IgnorePattern { patterns: [ '/**/node_modules/*' ], basePath: '/', loose: false } ] +0ms
+  eslintrc:ignore-pattern   processed: { basePath: '/', patterns: [ '/**/node_modules/*' ] } +1ms
+  eslintrc:ignore-pattern Create with: [ IgnorePattern { patterns: [ '/**/node_modules/*' ], basePath: '/', loose: false } ] +1ms
+  eslintrc:ignore-pattern   processed: { basePath: '/', patterns: [ '/**/node_modules/*' ] } +0ms
+  eslint:file-enumerator Start to iterate files: [ 'src/limited.vue' ] +0ms
+  eslint:file-enumerator File: src/limited.vue +1ms
+  eslintrc:cascading-config-array-factory Load config files for src. +0ms
+  eslintrc:cascading-config-array-factory No cache found: src. +0ms
+  eslintrc:config-array-factory Config file not found on src +4ms
+  eslintrc:cascading-config-array-factory No cache found: /. +1ms
+  eslintrc:config-array-factory Loading JS config file: .eslintrc.js +0ms
+  eslintrc:config-array-factory Config file found: .eslintrc.js +1ms
+  eslintrc:config-array-factory Loading {extends:"plugin:vue/vue3-essential"} relative to .eslintrc.js +1ms
+  eslintrc:config-array-factory Loading plugin "vue" from .eslintrc.js +0ms
+  eslintrc:config-array-factory Loaded: eslint-plugin-vue@7.20.0 (node_modules/eslint-plugin-vue/lib/index.js) +1ms
+  eslint:rules Loading rule 'accessor-pairs' (remaining=283) +0ms
+  eslint:rules Loading rule 'array-bracket-newline' (remaining=282) +2ms
+  eslint:rules Loading rule 'array-bracket-spacing' (remaining=281) +0ms
+  eslint:rules Loading rule 'array-callback-return' (remaining=280) +1ms
+  eslint:rules Loading rule 'array-element-newline' (remaining=279) +0ms
+  eslint:rules Loading rule 'arrow-body-style' (remaining=278) +1ms
+  eslint:rules Loading rule 'arrow-parens' (remaining=277) +0ms
+  eslint:rules Loading rule 'arrow-spacing' (remaining=276) +0ms
+  eslint:rules Loading rule 'block-scoped-var' (remaining=275) +1ms
+  eslint:rules Loading rule 'block-spacing' (remaining=274) +0ms
+  eslint:rules Loading rule 'brace-style' (remaining=273) +0ms
+  eslint:rules Loading rule 'callback-return' (remaining=272) +0ms
+  eslint:rules Loading rule 'camelcase' (remaining=271) +1ms
+  eslint:rules Loading rule 'capitalized-comments' (remaining=270) +0ms
+  eslint:rules Loading rule 'class-methods-use-this' (remaining=269) +1ms
+  eslint:rules Loading rule 'comma-dangle' (remaining=268) +0ms
+  eslint:rules Loading rule 'comma-spacing' (remaining=267) +1ms
+  eslint:rules Loading rule 'comma-style' (remaining=266) +1ms
+  eslint:rules Loading rule 'complexity' (remaining=265) +1ms
+  eslint:rules Loading rule 'computed-property-spacing' (remaining=264) +1ms
+  eslint:rules Loading rule 'consistent-return' (remaining=263) +0ms
+  eslint:rules Loading rule 'consistent-this' (remaining=262) +0ms
+  eslint:rules Loading rule 'constructor-super' (remaining=261) +1ms
+  eslint:rules Loading rule 'curly' (remaining=260) +0ms
+  eslint:rules Loading rule 'default-case' (remaining=259) +0ms
+  eslint:rules Loading rule 'default-case-last' (remaining=258) +1ms
+  eslint:rules Loading rule 'default-param-last' (remaining=257) +0ms
+  eslint:rules Loading rule 'dot-location' (remaining=256) +1ms
+  eslint:rules Loading rule 'dot-notation' (remaining=255) +0ms
+  eslint:rules Loading rule 'eol-last' (remaining=254) +0ms
+  eslint:rules Loading rule 'eqeqeq' (remaining=253) +1ms
+  eslint:rules Loading rule 'for-direction' (remaining=252) +0ms
+  eslint:rules Loading rule 'func-call-spacing' (remaining=251) +0ms
+  eslint:rules Loading rule 'func-name-matching' (remaining=250) +0ms
+  eslint:rules Loading rule 'func-names' (remaining=249) +1ms
+  eslint:rules Loading rule 'func-style' (remaining=248) +0ms
+  eslint:rules Loading rule 'function-call-argument-newline' (remaining=247) +0ms
+  eslint:rules Loading rule 'function-paren-newline' (remaining=246) +1ms
+  eslint:rules Loading rule 'generator-star-spacing' (remaining=245) +0ms
+  eslint:rules Loading rule 'getter-return' (remaining=244) +0ms
+  eslint:rules Loading rule 'global-require' (remaining=243) +0ms
+  eslint:rules Loading rule 'grouped-accessor-pairs' (remaining=242) +1ms
+  eslint:rules Loading rule 'guard-for-in' (remaining=241) +0ms
+  eslint:rules Loading rule 'handle-callback-err' (remaining=240) +0ms
+  eslint:rules Loading rule 'id-blacklist' (remaining=239) +1ms
+  eslint:rules Loading rule 'id-denylist' (remaining=238) +0ms
+  eslint:rules Loading rule 'id-length' (remaining=237) +0ms
+  eslint:rules Loading rule 'id-match' (remaining=236) +1ms
+  eslint:rules Loading rule 'implicit-arrow-linebreak' (remaining=235) +0ms
+  eslint:rules Loading rule 'indent' (remaining=234) +1ms
+  eslint:rules Loading rule 'indent-legacy' (remaining=233) +0ms
+  eslint:rules Loading rule 'init-declarations' (remaining=232) +1ms
+  eslint:rules Loading rule 'jsx-quotes' (remaining=231) +0ms
+  eslint:rules Loading rule 'key-spacing' (remaining=230) +0ms
+  eslint:rules Loading rule 'keyword-spacing' (remaining=229) +0ms
+  eslint:rules Loading rule 'line-comment-position' (remaining=228) +1ms
+  eslint:rules Loading rule 'linebreak-style' (remaining=227) +1ms
+  eslint:rules Loading rule 'lines-around-comment' (remaining=226) +0ms
+  eslint:rules Loading rule 'lines-around-directive' (remaining=225) +0ms
+  eslint:rules Loading rule 'lines-between-class-members' (remaining=224) +1ms
+  eslint:rules Loading rule 'max-classes-per-file' (remaining=223) +0ms
+  eslint:rules Loading rule 'max-depth' (remaining=222) +1ms
+  eslint:rules Loading rule 'max-len' (remaining=221) +0ms
+  eslint:rules Loading rule 'max-lines' (remaining=220) +1ms
+  eslint:rules Loading rule 'max-lines-per-function' (remaining=219) +0ms
+  eslint:rules Loading rule 'max-nested-callbacks' (remaining=218) +0ms
+  eslint:rules Loading rule 'max-params' (remaining=217) +1ms
+  eslint:rules Loading rule 'max-statements' (remaining=216) +0ms
+  eslint:rules Loading rule 'max-statements-per-line' (remaining=215) +0ms
+  eslint:rules Loading rule 'multiline-comment-style' (remaining=214) +1ms
+  eslint:rules Loading rule 'multiline-ternary' (remaining=213) +0ms
+  eslint:rules Loading rule 'new-cap' (remaining=212) +0ms
+  eslint:rules Loading rule 'new-parens' (remaining=211) +0ms
+  eslint:rules Loading rule 'newline-after-var' (remaining=210) +1ms
+  eslint:rules Loading rule 'newline-before-return' (remaining=209) +0ms
+  eslint:rules Loading rule 'newline-per-chained-call' (remaining=208) +0ms
+  eslint:rules Loading rule 'no-alert' (remaining=207) +0ms
+  eslint:rules Loading rule 'no-array-constructor' (remaining=206) +0ms
+  eslint:rules Loading rule 'no-async-promise-executor' (remaining=205) +1ms
+  eslint:rules Loading rule 'no-await-in-loop' (remaining=204) +0ms
+  eslint:rules Loading rule 'no-bitwise' (remaining=203) +0ms
+  eslint:rules Loading rule 'no-buffer-constructor' (remaining=202) +0ms
+  eslint:rules Loading rule 'no-caller' (remaining=201) +0ms
+  eslint:rules Loading rule 'no-case-declarations' (remaining=200) +0ms
+  eslint:rules Loading rule 'no-catch-shadow' (remaining=199) +1ms
+  eslint:rules Loading rule 'no-class-assign' (remaining=198) +1ms
+  eslint:rules Loading rule 'no-compare-neg-zero' (remaining=197) +0ms
+  eslint:rules Loading rule 'no-cond-assign' (remaining=196) +0ms
+  eslint:rules Loading rule 'no-confusing-arrow' (remaining=195) +1ms
+  eslint:rules Loading rule 'no-console' (remaining=194) +0ms
+  eslint:rules Loading rule 'no-const-assign' (remaining=193) +1ms
+  eslint:rules Loading rule 'no-constant-condition' (remaining=192) +0ms
+  eslint:rules Loading rule 'no-constructor-return' (remaining=191) +0ms
+  eslint:rules Loading rule 'no-continue' (remaining=190) +0ms
+  eslint:rules Loading rule 'no-control-regex' (remaining=189) +0ms
+  eslint:rules Loading rule 'no-debugger' (remaining=188) +2ms
+  eslint:rules Loading rule 'no-delete-var' (remaining=187) +0ms
+  eslint:rules Loading rule 'no-div-regex' (remaining=186) +1ms
+  eslint:rules Loading rule 'no-dupe-args' (remaining=185) +0ms
+  eslint:rules Loading rule 'no-dupe-class-members' (remaining=184) +0ms
+  eslint:rules Loading rule 'no-dupe-else-if' (remaining=183) +1ms
+  eslint:rules Loading rule 'no-dupe-keys' (remaining=182) +0ms
+  eslint:rules Loading rule 'no-duplicate-case' (remaining=181) +1ms
+  eslint:rules Loading rule 'no-duplicate-imports' (remaining=180) +0ms
+  eslint:rules Loading rule 'no-else-return' (remaining=179) +1ms
+  eslint:rules Loading rule 'no-empty' (remaining=178) +0ms
+  eslint:rules Loading rule 'no-empty-character-class' (remaining=177) +0ms
+  eslint:rules Loading rule 'no-empty-function' (remaining=176) +1ms
+  eslint:rules Loading rule 'no-empty-pattern' (remaining=175) +0ms
+  eslint:rules Loading rule 'no-eq-null' (remaining=174) +0ms
+  eslint:rules Loading rule 'no-eval' (remaining=173) +1ms
+  eslint:rules Loading rule 'no-ex-assign' (remaining=172) +0ms
+  eslint:rules Loading rule 'no-extend-native' (remaining=171) +0ms
+  eslint:rules Loading rule 'no-extra-bind' (remaining=170) +1ms
+  eslint:rules Loading rule 'no-extra-boolean-cast' (remaining=169) +0ms
+  eslint:rules Loading rule 'no-extra-label' (remaining=168) +0ms
+  eslint:rules Loading rule 'no-extra-parens' (remaining=167) +1ms
+  eslint:rules Loading rule 'no-extra-semi' (remaining=166) +0ms
+  eslint:rules Loading rule 'no-fallthrough' (remaining=165) +0ms
+  eslint:rules Loading rule 'no-floating-decimal' (remaining=164) +1ms
+  eslint:rules Loading rule 'no-func-assign' (remaining=163) +0ms
+  eslint:rules Loading rule 'no-global-assign' (remaining=162) +0ms
+  eslint:rules Loading rule 'no-implicit-coercion' (remaining=161) +1ms
+  eslint:rules Loading rule 'no-implicit-globals' (remaining=160) +0ms
+  eslint:rules Loading rule 'no-implied-eval' (remaining=159) +0ms
+  eslint:rules Loading rule 'no-import-assign' (remaining=158) +1ms
+  eslint:rules Loading rule 'no-inline-comments' (remaining=157) +0ms
+  eslint:rules Loading rule 'no-inner-declarations' (remaining=156) +0ms
+  eslint:rules Loading rule 'no-invalid-regexp' (remaining=155) +0ms
+  eslint:rules Loading rule 'no-invalid-this' (remaining=154) +0ms
+  eslint:rules Loading rule 'no-irregular-whitespace' (remaining=153) +1ms
+  eslint:rules Loading rule 'no-iterator' (remaining=152) +0ms
+  eslint:rules Loading rule 'no-label-var' (remaining=151) +0ms
+  eslint:rules Loading rule 'no-labels' (remaining=150) +1ms
+  eslint:rules Loading rule 'no-lone-blocks' (remaining=149) +0ms
+  eslint:rules Loading rule 'no-lonely-if' (remaining=148) +0ms
+  eslint:rules Loading rule 'no-loop-func' (remaining=147) +1ms
+  eslint:rules Loading rule 'no-loss-of-precision' (remaining=146) +0ms
+  eslint:rules Loading rule 'no-magic-numbers' (remaining=145) +0ms
+  eslint:rules Loading rule 'no-misleading-character-class' (remaining=144) +1ms
+  eslint:rules Loading rule 'no-mixed-operators' (remaining=143) +1ms
+  eslint:rules Loading rule 'no-mixed-requires' (remaining=142) +0ms
+  eslint:rules Loading rule 'no-mixed-spaces-and-tabs' (remaining=141) +1ms
+  eslint:rules Loading rule 'no-multi-assign' (remaining=140) +0ms
+  eslint:rules Loading rule 'no-multi-spaces' (remaining=139) +1ms
+  eslint:rules Loading rule 'no-multi-str' (remaining=138) +0ms
+  eslint:rules Loading rule 'no-multiple-empty-lines' (remaining=137) +0ms
+  eslint:rules Loading rule 'no-native-reassign' (remaining=136) +1ms
+  eslint:rules Loading rule 'no-negated-condition' (remaining=135) +1ms
+  eslint:rules Loading rule 'no-negated-in-lhs' (remaining=134) +0ms
+  eslint:rules Loading rule 'no-nested-ternary' (remaining=133) +1ms
+  eslint:rules Loading rule 'no-new' (remaining=132) +0ms
+  eslint:rules Loading rule 'no-new-func' (remaining=131) +0ms
+  eslint:rules Loading rule 'no-new-object' (remaining=130) +0ms
+  eslint:rules Loading rule 'no-new-require' (remaining=129) +0ms
+  eslint:rules Loading rule 'no-new-symbol' (remaining=128) +1ms
+  eslint:rules Loading rule 'no-new-wrappers' (remaining=127) +0ms
+  eslint:rules Loading rule 'no-nonoctal-decimal-escape' (remaining=126) +0ms
+  eslint:rules Loading rule 'no-obj-calls' (remaining=125) +0ms
+  eslint:rules Loading rule 'no-octal' (remaining=124) +1ms
+  eslint:rules Loading rule 'no-octal-escape' (remaining=123) +0ms
+  eslint:rules Loading rule 'no-param-reassign' (remaining=122) +0ms
+  eslint:rules Loading rule 'no-path-concat' (remaining=121) +0ms
+  eslint:rules Loading rule 'no-plusplus' (remaining=120) +1ms
+  eslint:rules Loading rule 'no-process-env' (remaining=119) +0ms
+  eslint:rules Loading rule 'no-process-exit' (remaining=118) +0ms
+  eslint:rules Loading rule 'no-promise-executor-return' (remaining=117) +0ms
+  eslint:rules Loading rule 'no-proto' (remaining=116) +1ms
+  eslint:rules Loading rule 'no-prototype-builtins' (remaining=115) +0ms
+  eslint:rules Loading rule 'no-redeclare' (remaining=114) +0ms
+  eslint:rules Loading rule 'no-regex-spaces' (remaining=113) +0ms
+  eslint:rules Loading rule 'no-restricted-exports' (remaining=112) +1ms
+  eslint:rules Loading rule 'no-restricted-globals' (remaining=111) +1ms
+  eslint:rules Loading rule 'no-restricted-imports' (remaining=110) +0ms
+  eslint:rules Loading rule 'no-restricted-modules' (remaining=109) +1ms
+  eslint:rules Loading rule 'no-restricted-properties' (remaining=108) +0ms
+  eslint:rules Loading rule 'no-restricted-syntax' (remaining=107) +0ms
+  eslint:rules Loading rule 'no-return-assign' (remaining=106) +0ms
+  eslint:rules Loading rule 'no-return-await' (remaining=105) +1ms
+  eslint:rules Loading rule 'no-script-url' (remaining=104) +0ms
+  eslint:rules Loading rule 'no-self-assign' (remaining=103) +0ms
+  eslint:rules Loading rule 'no-self-compare' (remaining=102) +1ms
+  eslint:rules Loading rule 'no-sequences' (remaining=101) +1ms
+  eslint:rules Loading rule 'no-setter-return' (remaining=100) +0ms
+  eslint:rules Loading rule 'no-shadow' (remaining=99) +0ms
+  eslint:rules Loading rule 'no-shadow-restricted-names' (remaining=98) +0ms
+  eslint:rules Loading rule 'no-spaced-func' (remaining=97) +1ms
+  eslint:rules Loading rule 'no-sparse-arrays' (remaining=96) +0ms
+  eslint:rules Loading rule 'no-sync' (remaining=95) +1ms
+  eslint:rules Loading rule 'no-tabs' (remaining=94) +0ms
+  eslint:rules Loading rule 'no-template-curly-in-string' (remaining=93) +0ms
+  eslint:rules Loading rule 'no-ternary' (remaining=92) +1ms
+  eslint:rules Loading rule 'no-this-before-super' (remaining=91) +0ms
+  eslint:rules Loading rule 'no-throw-literal' (remaining=90) +1ms
+  eslint:rules Loading rule 'no-trailing-spaces' (remaining=89) +0ms
+  eslint:rules Loading rule 'no-undef' (remaining=88) +0ms
+  eslint:rules Loading rule 'no-undef-init' (remaining=87) +0ms
+  eslint:rules Loading rule 'no-undefined' (remaining=86) +1ms
+  eslint:rules Loading rule 'no-underscore-dangle' (remaining=85) +0ms
+  eslint:rules Loading rule 'no-unexpected-multiline' (remaining=84) +0ms
+  eslint:rules Loading rule 'no-unmodified-loop-condition' (remaining=83) +1ms
+  eslint:rules Loading rule 'no-unneeded-ternary' (remaining=82) +0ms
+  eslint:rules Loading rule 'no-unreachable' (remaining=81) +1ms
+  eslint:rules Loading rule 'no-unreachable-loop' (remaining=80) +0ms
+  eslint:rules Loading rule 'no-unsafe-finally' (remaining=79) +0ms
+  eslint:rules Loading rule 'no-unsafe-negation' (remaining=78) +0ms
+  eslint:rules Loading rule 'no-unsafe-optional-chaining' (remaining=77) +0ms
+  eslint:rules Loading rule 'no-unused-expressions' (remaining=76) +1ms
+  eslint:rules Loading rule 'no-unused-labels' (remaining=75) +0ms
+  eslint:rules Loading rule 'no-unused-vars' (remaining=74) +0ms
+  eslint:rules Loading rule 'no-use-before-define' (remaining=73) +1ms
+  eslint:rules Loading rule 'no-useless-backreference' (remaining=72) +0ms
+  eslint:rules Loading rule 'no-useless-call' (remaining=71) +1ms
+  eslint:rules Loading rule 'no-useless-catch' (remaining=70) +0ms
+  eslint:rules Loading rule 'no-useless-computed-key' (remaining=69) +0ms
+  eslint:rules Loading rule 'no-useless-concat' (remaining=68) +0ms
+  eslint:rules Loading rule 'no-useless-constructor' (remaining=67) +1ms
+  eslint:rules Loading rule 'no-useless-escape' (remaining=66) +0ms
+  eslint:rules Loading rule 'no-useless-rename' (remaining=65) +0ms
+  eslint:rules Loading rule 'no-useless-return' (remaining=64) +0ms
+  eslint:rules Loading rule 'no-var' (remaining=63) +1ms
+  eslint:rules Loading rule 'no-void' (remaining=62) +0ms
+  eslint:rules Loading rule 'no-warning-comments' (remaining=61) +1ms
+  eslint:rules Loading rule 'no-whitespace-before-property' (remaining=60) +0ms
+  eslint:rules Loading rule 'no-with' (remaining=59) +0ms
+  eslint:rules Loading rule 'nonblock-statement-body-position' (remaining=58) +0ms
+  eslint:rules Loading rule 'object-curly-newline' (remaining=57) +1ms
+  eslint:rules Loading rule 'object-curly-spacing' (remaining=56) +0ms
+  eslint:rules Loading rule 'object-property-newline' (remaining=55) +0ms
+  eslint:rules Loading rule 'object-shorthand' (remaining=54) +1ms
+  eslint:rules Loading rule 'one-var' (remaining=53) +0ms
+  eslint:rules Loading rule 'one-var-declaration-per-line' (remaining=52) +0ms
+  eslint:rules Loading rule 'operator-assignment' (remaining=51) +1ms
+  eslint:rules Loading rule 'operator-linebreak' (remaining=50) +0ms
+  eslint:rules Loading rule 'padded-blocks' (remaining=49) +1ms
+  eslint:rules Loading rule 'padding-line-between-statements' (remaining=48) +0ms
+  eslint:rules Loading rule 'prefer-arrow-callback' (remaining=47) +1ms
+  eslint:rules Loading rule 'prefer-const' (remaining=46) +1ms
+  eslint:rules Loading rule 'prefer-destructuring' (remaining=45) +1ms
+  eslint:rules Loading rule 'prefer-exponentiation-operator' (remaining=44) +1ms
+  eslint:rules Loading rule 'prefer-named-capture-group' (remaining=43) +0ms
+  eslint:rules Loading rule 'prefer-numeric-literals' (remaining=42) +1ms
+  eslint:rules Loading rule 'prefer-object-spread' (remaining=41) +0ms
+  eslint:rules Loading rule 'prefer-promise-reject-errors' (remaining=40) +1ms
+  eslint:rules Loading rule 'prefer-reflect' (remaining=39) +0ms
+  eslint:rules Loading rule 'prefer-regex-literals' (remaining=38) +1ms
+  eslint:rules Loading rule 'prefer-rest-params' (remaining=37) +0ms
+  eslint:rules Loading rule 'prefer-spread' (remaining=36) +0ms
+  eslint:rules Loading rule 'prefer-template' (remaining=35) +0ms
+  eslint:rules Loading rule 'quote-props' (remaining=34) +1ms
+  eslint:rules Loading rule 'quotes' (remaining=33) +1ms
+  eslint:rules Loading rule 'radix' (remaining=32) +0ms
+  eslint:rules Loading rule 'require-atomic-updates' (remaining=31) +0ms
+  eslint:rules Loading rule 'require-await' (remaining=30) +0ms
+  eslint:rules Loading rule 'require-jsdoc' (remaining=29) +1ms
+  eslint:rules Loading rule 'require-unicode-regexp' (remaining=28) +0ms
+  eslint:rules Loading rule 'require-yield' (remaining=27) +0ms
+  eslint:rules Loading rule 'rest-spread-spacing' (remaining=26) +0ms
+  eslint:rules Loading rule 'semi' (remaining=25) +0ms
+  eslint:rules Loading rule 'semi-spacing' (remaining=24) +1ms
+  eslint:rules Loading rule 'semi-style' (remaining=23) +0ms
+  eslint:rules Loading rule 'sort-imports' (remaining=22) +1ms
+  eslint:rules Loading rule 'sort-keys' (remaining=21) +0ms
+  eslint:rules Loading rule 'sort-vars' (remaining=20) +1ms
+  eslint:rules Loading rule 'space-before-blocks' (remaining=19) +0ms
+  eslint:rules Loading rule 'space-before-function-paren' (remaining=18) +0ms
+  eslint:rules Loading rule 'space-in-parens' (remaining=17) +0ms
+  eslint:rules Loading rule 'space-infix-ops' (remaining=16) +1ms
+  eslint:rules Loading rule 'space-unary-ops' (remaining=15) +0ms
+  eslint:rules Loading rule 'spaced-comment' (remaining=14) +1ms
+  eslint:rules Loading rule 'strict' (remaining=13) +0ms
+  eslint:rules Loading rule 'switch-colon-spacing' (remaining=12) +1ms
+  eslint:rules Loading rule 'symbol-description' (remaining=11) +1ms
+  eslint:rules Loading rule 'template-curly-spacing' (remaining=10) +0ms
+  eslint:rules Loading rule 'template-tag-spacing' (remaining=9) +0ms
+  eslint:rules Loading rule 'unicode-bom' (remaining=8) +0ms
+  eslint:rules Loading rule 'use-isnan' (remaining=7) +1ms
+  eslint:rules Loading rule 'valid-jsdoc' (remaining=6) +0ms
+  eslint:rules Loading rule 'valid-typeof' (remaining=5) +1ms
+  eslint:rules Loading rule 'vars-on-top' (remaining=4) +0ms
+  eslint:rules Loading rule 'wrap-iife' (remaining=3) +1ms
+  eslint:rules Loading rule 'wrap-regex' (remaining=2) +0ms
+  eslint:rules Loading rule 'yield-star-spacing' (remaining=1) +0ms
+  eslint:rules Loading rule 'yoda' (remaining=0) +1ms
+  eslintrc:config-array-factory Plugin node_modules/eslint-plugin-vue/lib/index.js loaded in: 179ms +179ms
+  eslintrc:config-array-factory Loading {extends:"node_modules/eslint-plugin-vue/lib/configs/base.js"} relative to node_modules/eslint-plugin-vue/lib/index.js +0ms
+  eslintrc:config-array-factory package.json was not found: Cannot find module 'node_modules/eslint-plugin-vue/lib/configs/base.js/package.json'
+Require stack:
+- node_modules/eslint-plugin-vue/lib/index.js +0ms
+  eslintrc:config-array-factory Loaded: node_modules/eslint-plugin-vue/lib/configs/base.js (node_modules/eslint-plugin-vue/lib/configs/base.js) +0ms
+  eslintrc:config-array-factory Loading JS config file: node_modules/eslint-plugin-vue/lib/configs/base.js +1ms
+  eslintrc:config-array-factory Loading parser "node_modules/vue-eslint-parser/index.js" from node_modules/eslint-plugin-vue/lib/configs/base.js +0ms
+  eslintrc:config-array-factory package.json was not found: Cannot find module 'node_modules/vue-eslint-parser/index.js/package.json'
+Require stack:
+- node_modules/eslint-plugin-vue/lib/configs/base.js +0ms
+  eslintrc:config-array-factory Loaded: node_modules/vue-eslint-parser/index.js (node_modules/vue-eslint-parser/index.js) +0ms
+  eslintrc:config-array-factory Loading plugin "vue" from node_modules/eslint-plugin-vue/lib/configs/base.js +0ms
+  eslintrc:config-array-factory Loaded: eslint-plugin-vue@7.20.0 (node_modules/eslint-plugin-vue/lib/index.js) +1ms
+  eslintrc:config-array-factory Plugin node_modules/eslint-plugin-vue/lib/index.js loaded in: 0ms +0ms
+  eslintrc:config-array-factory Loading parser "vue-eslint-parser" from .eslintrc.js +0ms
+  eslintrc:config-array-factory Loaded: vue-eslint-parser@7.11.0 (node_modules/vue-eslint-parser/index.js) +0ms
+  eslintrc:cascading-config-array-factory Stop traversing because of 'root:true'. +184ms
+  eslintrc:cascading-config-array-factory Configuration was determined: ConfigArray(6) [ { type: 'config', name: 'DefaultIgnorePattern', filePath: '', criteria: null, env: undefined, globals: undefined, ignorePattern: IgnorePattern { patterns: [Array], basePath: '/', loose: false }, noInlineConfig: undefined, parser: undefined, parserOptions: undefined, plugins: undefined, processor: undefined, reportUnusedDisableDirectives: undefined, root: undefined, rules: undefined, settings: undefined }, { type: 'config', name: '.eslintrc.js', filePath: '.eslintrc.js', criteria: null, env: { es6: true, browser: true }, globals: undefined, ignorePattern: undefined, noInlineConfig: undefined, parser: undefined, parserOptions: undefined, plugins: undefined, processor: undefined, reportUnusedDisableDirectives: undefined, root: true, rules: undefined, settings: undefined }, { type: 'implicit-processor', name: '.eslintrc.js#overrides[0] » plugin:vue/vue3-essential » node_modules/eslint-plugin-vue/lib/configs/base.js#processors["vue/.vue"]', filePath: 'node_modules/eslint-plugin-vue/lib/configs/base.js', criteria: { AND: [Array], basePath: '/' }, env: undefined, globals: undefined, ignorePattern: undefined, noInlineConfig: undefined, parser: undefined, parserOptions: undefined, plugins: undefined, processor: 'vue/.vue', reportUnusedDisableDirectives: undefined, root: undefined, rules: undefined, settings: undefined }, { type: 'config', name: '.eslintrc.js#overrides[0] » plugin:vue/vue3-essential » node_modules/eslint-plugin-vue/lib/configs/base.js', filePath: 'node_modules/eslint-plugin-vue/lib/configs/base.js', criteria: { includes: [Array], excludes: null, basePath: '/' }, env: { browser: true, es6: true }, globals: undefined, ignorePattern: undefined, noInlineConfig: undefined, parser: { error: null, filePath: 'node_modules/vue-eslint-parser/index.js', id: 'node_modules/vue-eslint-parser/index.js', importerName: '.eslintrc.js#overrides[0] » plugin:vue/vue3-essential » node_modules/eslint-plugin-vue/lib/configs/base.js', importerPath: 'node_modules/eslint-plugin-vue/lib/configs/base.js' }, parserOptions: { ecmaVersion: 2020, sourceType: 'module' }, plugins: { vue: [Object] }, processor: undefined, reportUnusedDisableDirectives: undefined, root: undefined, rules: { 'vue/comment-directive': 'error', 'vue/jsx-uses-vars': 'error', 'vue/script-setup-uses-vars': 'error' }, settings: undefined }, { type: 'config', name: '.eslintrc.js#overrides[0] » plugin:vue/vue3-essential', filePath: 'node_modules/eslint-plugin-vue/lib/index.js', criteria: { includes: [Array], excludes: null, basePath: '/' }, env: undefined, globals: undefined, ignorePattern: undefined, noInlineConfig: undefined, parser: undefined, parserOptions: undefined, plugins: undefined, processor: undefined, reportUnusedDisableDirectives: undefined, root: undefined, rules: { 'vue/no-arrow-functions-in-watch': 'error', 'vue/no-async-in-computed-properties': 'error', 'vue/no-deprecated-data-object-declaration': 'error', 'vue/no-deprecated-destroyed-lifecycle': 'error', 'vue/no-deprecated-dollar-listeners-api': 'error', 'vue/no-deprecated-dollar-scopedslots-api': 'error', 'vue/no-deprecated-events-api': 'error', 'vue/no-deprecated-filter': 'error', 'vue/no-deprecated-functional-template': 'error', 'vue/no-deprecated-html-element-is': 'error', 'vue/no-deprecated-inline-template': 'error', 'vue/no-deprecated-props-default-this': 'error', 'vue/no-deprecated-scope-attribute': 'error', 'vue/no-deprecated-slot-attribute': 'error', 'vue/no-deprecated-slot-scope-attribute': 'error', 'vue/no-deprecated-v-bind-sync': 'error', 'vue/no-deprecated-v-on-native-modifier': 'error', 'vue/no-deprecated-v-on-number-modifiers': 'error', 'vue/no-deprecated-vue-config-keycodes': 'error', 'vue/no-dupe-keys': 'error', 'vue/no-dupe-v-else-if': 'error', 'vue/no-duplicate-attributes': 'error', 'vue/no-lifecycle-after-await': 'error', 'vue/no-mutating-props': 'error', 'vue/no-parsing-error': 'error', 'vue/no-ref-as-operand': 'error', 'vue/no-reserved-keys': 'error', 'vue/no-setup-props-destructure': 'error', 'vue/no-shared-component-data': 'error', 'vue/no-side-effects-in-computed-properties': 'error', 'vue/no-template-key': 'error', 'vue/no-textarea-mustache': 'error', 'vue/no-unused-components': 'error', 'vue/no-unused-vars': 'error', 'vue/no-use-v-if-with-v-for': 'error', 'vue/no-v-for-template-key-on-child': 'error', 'vue/no-watch-after-await': 'error', 'vue/require-component-is': 'error', 'vue/require-prop-type-constructor': 'error', 'vue/require-render-return': 'error', 'vue/require-slots-as-functions': 'error', 'vue/require-toggle-inside-transition': 'error', 'vue/require-v-for-key': 'error', 'vue/require-valid-default-prop': 'error', 'vue/return-in-computed-property': 'error', 'vue/return-in-emits-validator': 'error', 'vue/use-v-on-exact': 'error', 'vue/valid-template-root': 'error', 'vue/valid-v-bind': 'error', 'vue/valid-v-cloak': 'error', 'vue/valid-v-else-if': 'error', 'vue/valid-v-else': 'error', 'vue/valid-v-for': 'error', 'vue/valid-v-html': 'error', 'vue/valid-v-if': 'error', 'vue/valid-v-is': 'error', 'vue/valid-v-model': 'error', 'vue/valid-v-on': 'error', 'vue/valid-v-once': 'error', 'vue/valid-v-pre': 'error', 'vue/valid-v-show': 'error', 'vue/valid-v-slot': 'error', 'vue/valid-v-text': 'error' }, settings: undefined }, { type: 'config', name: '.eslintrc.js#overrides[0]', filePath: '.eslintrc.js', criteria: { includes: [Array], excludes: null, basePath: '/' }, env: undefined, globals: undefined, ignorePattern: undefined, noInlineConfig: undefined, parser: { error: null, filePath: 'node_modules/vue-eslint-parser/index.js', id: 'vue-eslint-parser', importerName: '.eslintrc.js#overrides[0]', importerPath: '.eslintrc.js' }, parserOptions: { parser: [Object], project: [Array], extraFileExtensions: [Array] }, plugins: undefined, processor: undefined, reportUnusedDisableDirectives: undefined, root: undefined, rules: undefined, settings: undefined } ] on src +8ms
+  eslintrc:ignore-pattern Create with: [ IgnorePattern { patterns: [ '/**/node_modules/*' ], basePath: '/', loose: false } ] +196ms
+  eslintrc:ignore-pattern   processed: { basePath: '/', patterns: [ '/**/node_modules/*' ] } +0ms
+  eslintrc:ignore-pattern Check {
+  filePath: 'src/limited.vue',
+  dot: false,
+  relativePath: 'src/limited.vue',
+  result: false
+} +0ms
+  eslint:cli-engine Lint src/limited.vue +0ms
+  eslint:linter Linting code for src/limited.vue (pass 1) +0ms
+  eslint:linter Verify +0ms
+  eslint:linter With ConfigArray: src/limited.vue +0ms
+  eslint:linter Apply the processor: 'vue/.vue' +0ms
+  eslint:linter A code block was found: '(unnamed)' +0ms
+  vue-eslint-parser [html] the source code length: 72 +0ms
+  vue-eslint-parser [html] parse 60 DATA +0ms
+  vue-eslint-parser [html] start token: 0 HTMLText +1ms
+  vue-eslint-parser [html] parse 115 TAG_OPEN +0ms
+  vue-eslint-parser [html] abandon token: [0,0] HTMLText "" +0ms
+  vue-eslint-parser [html] start token: 0 HTMLTagOpen +0ms
+  vue-eslint-parser [html] parse 115 TAG_NAME +0ms
+  vue-eslint-parser [html] commit token: [0,7] {"start":{"line":1,"column":0},"end":{"line":1,"column":7}} HTMLTagOpen "script" +0ms
+  vue-eslint-parser [html] parse 108 BEFORE_ATTRIBUTE_NAME +0ms
+  vue-eslint-parser [html] start token: 8 HTMLIdentifier +0ms
+  vue-eslint-parser [html] parse 108 ATTRIBUTE_NAME +0ms
+  vue-eslint-parser [html] commit token: [8,12] {"start":{"line":1,"column":8},"end":{"line":1,"column":12}} HTMLIdentifier "lang" +1ms
+  vue-eslint-parser [html] start token: 12 HTMLAssociation +0ms
+  vue-eslint-parser [html] parse 34 BEFORE_ATTRIBUTE_VALUE +0ms
+  vue-eslint-parser [html] commit token: [12,13] {"start":{"line":1,"column":12},"end":{"line":1,"column":13}} HTMLAssociation "" +0ms
+  vue-eslint-parser [html] start token: 13 HTMLLiteral +0ms
+  vue-eslint-parser [html] parse 116 ATTRIBUTE_VALUE_DOUBLE_QUOTED +0ms
+  vue-eslint-parser [html] parse 62 AFTER_ATTRIBUTE_VALUE_QUOTED +0ms
+  vue-eslint-parser [html] commit token: [13,17] {"start":{"line":1,"column":13},"end":{"line":1,"column":17}} HTMLLiteral "ts" +0ms
+  vue-eslint-parser [html] start token: 17 HTMLTagClose +0ms
+  vue-eslint-parser [html] parse 10 DATA +0ms
+  vue-eslint-parser [html] commit token: [17,18] {"start":{"line":1,"column":17},"end":{"line":1,"column":18}} HTMLTagClose "" +0ms
+  vue-eslint-parser [html] StartTag [Circular] +0ms
+  vue-eslint-parser [html] parse 10 RAWTEXT +1ms
+  vue-eslint-parser [html] start token: 18 HTMLWhitespace +0ms
+  vue-eslint-parser [html] commit token: [18,19] {"start":{"line":1,"column":18},"end":{"line":2,"column":0}} HTMLWhitespace "\n" +0ms
+  vue-eslint-parser [html] parse 99 RAWTEXT +0ms
+  vue-eslint-parser [html] start token: 19 HTMLRawText +0ms
+  vue-eslint-parser [html] commit token: [19,36] {"start":{"line":2,"column":0},"end":{"line":2,"column":17}} HTMLRawText "console.log('This" +1ms
+  vue-eslint-parser [html] parse 32 RAWTEXT +0ms
+  vue-eslint-parser [html] start token: 36 HTMLWhitespace +0ms
+  vue-eslint-parser [html] commit token: [36,37] {"start":{"line":2,"column":17},"end":{"line":2,"column":18}} HTMLWhitespace " " +0ms
+  vue-eslint-parser [html] parse 102 RAWTEXT +0ms
+  vue-eslint-parser [html] start token: 37 HTMLRawText +0ms
+  vue-eslint-parser [html] commit token: [37,41] {"start":{"line":2,"column":18},"end":{"line":2,"column":22}} HTMLRawText "file" +0ms
+  vue-eslint-parser [html] parse 32 RAWTEXT +0ms
+  vue-eslint-parser [html] start token: 41 HTMLWhitespace +0ms
+  vue-eslint-parser [html] commit token: [41,42] {"start":{"line":2,"column":22},"end":{"line":2,"column":23}} HTMLWhitespace " " +0ms
+  vue-eslint-parser [html] parse 105 RAWTEXT +0ms
+  vue-eslint-parser [html] start token: 42 HTMLRawText +0ms
+  vue-eslint-parser [html] commit token: [42,44] {"start":{"line":2,"column":23},"end":{"line":2,"column":25}} HTMLRawText "is" +0ms
+  vue-eslint-parser [html] parse 32 RAWTEXT +0ms
+  vue-eslint-parser [html] start token: 44 HTMLWhitespace +0ms
+  vue-eslint-parser [html] commit token: [44,45] {"start":{"line":2,"column":25},"end":{"line":2,"column":26}} HTMLWhitespace " " +0ms
+  vue-eslint-parser [html] parse 112 RAWTEXT +0ms
+  vue-eslint-parser [html] start token: 45 HTMLRawText +0ms
+  vue-eslint-parser [html] commit token: [45,54] {"start":{"line":2,"column":26},"end":{"line":2,"column":35}} HTMLRawText "perfectly" +0ms
+  vue-eslint-parser [html] parse 32 RAWTEXT +0ms
+  vue-eslint-parser [html] start token: 54 HTMLWhitespace +0ms
+  vue-eslint-parser [html] commit token: [54,55] {"start":{"line":2,"column":35},"end":{"line":2,"column":36}} HTMLWhitespace " " +0ms
+  vue-eslint-parser [html] parse 102 RAWTEXT +0ms
+  vue-eslint-parser [html] start token: 55 HTMLRawText +0ms
+  vue-eslint-parser [html] commit token: [55,61] {"start":{"line":2,"column":36},"end":{"line":2,"column":42}} HTMLRawText "fine')" +0ms
+  vue-eslint-parser [html] parse 10 RAWTEXT +0ms
+  vue-eslint-parser [html] start token: 61 HTMLWhitespace +0ms
+  vue-eslint-parser [html] commit token: [61,62] {"start":{"line":2,"column":42},"end":{"line":3,"column":0}} HTMLWhitespace "\n" +0ms
+  vue-eslint-parser [html] parse 60 RAWTEXT +0ms
+  vue-eslint-parser [html] start token: 62 HTMLRawText +0ms
+  vue-eslint-parser [html] parse 47 RAWTEXT_LESS_THAN_SIGN +0ms
+  vue-eslint-parser [html] parse 115 RAWTEXT_END_TAG_OPEN +0ms
+  vue-eslint-parser [html] provisional-commit token: [62,62] HTMLRawText "" +0ms
+  vue-eslint-parser [html] start token: 62 HTMLEndTagOpen +0ms
+  vue-eslint-parser [html] parse 115 RAWTEXT_END_TAG_NAME +0ms
+  vue-eslint-parser [html] provisional-commit token: [62,70] HTMLEndTagOpen "script" +1ms
+  vue-eslint-parser [html] start token: 70 HTMLTagClose +0ms
+  vue-eslint-parser [html] commit token: [62,70] {"start":{"line":3,"column":0},"end":{"line":3,"column":8}} HTMLEndTagOpen "script" +0ms
+  vue-eslint-parser [html] Text {"type":"Text","range":[18,62],"loc":{"start":{"line":1,"column":18},"end":{"line":3,"column":0}},"value":"\nconsole.log('This file is perfectly fine')\n"} +0ms
+  vue-eslint-parser [html] parse 10 DATA +0ms
+  vue-eslint-parser [html] commit token: [70,71] {"start":{"line":3,"column":8},"end":{"line":3,"column":9}} HTMLTagClose "" +0ms
+  vue-eslint-parser [html] EndTag {"type":"EndTag","range":[62,71],"loc":{"start":{"line":3,"column":0},"end":{"line":3,"column":9}},"name":"script"} +0ms
+  vue-eslint-parser [html] parse 10 DATA +0ms
+  vue-eslint-parser [html] start token: 71 HTMLWhitespace +0ms
+  vue-eslint-parser [html] commit token: [71,72] {"start":{"line":3,"column":9},"end":{"line":4,"column":0}} HTMLWhitespace "\n" +0ms
+  vue-eslint-parser [html] parse -1 DATA +0ms
+  vue-eslint-parser [html] start token: 72 HTMLText +0ms
+  vue-eslint-parser [html] abandon token: [72,72] HTMLText "" +0ms
+  vue-eslint-parser [html] Text {"type":"Text","range":[71,72],"loc":{"start":{"line":3,"column":9},"end":{"line":4,"column":0}},"value":"\n"} +0ms
+  typescript-eslint:typescript-estree:parser parserOptions.project (excluding ignored) matched projects: Set(1) { 'tsconfig.json' } +0ms
+  typescript-eslint:typescript-estree:createProjectProgram Creating project program for: src/limited.vue +0ms
+  typescript-eslint:typescript-estree:createWatchProgram File did not belong to any existing programs, moving to create/update. src/limited.vue +0ms
+  typescript-eslint:typescript-estree:createWatchProgram Creating watch program for tsconfig.json. +0ms
+
+<--- Last few GCs --->
+
+[156851:0x6091b90]   110349 ms: Scavenge 1497.1 (1519.3) -> 1481.1 (1519.3) MB, 0.6 / 0.0 ms  (average mu = 0.992, current mu = 0.992) allocation failure
+[156851:0x6091b90]   110421 ms: Scavenge 1497.1 (1519.3) -> 1481.1 (1519.3) MB, 0.7 / 0.0 ms  (average mu = 0.992, current mu = 0.992) allocation failure
+[156851:0x6091b90]   110493 ms: Scavenge 1497.1 (1519.3) -> 1481.1 (1519.3) MB, 0.3 / 0.0 ms  (average mu = 0.992, current mu = 0.992) allocation failure
+
+
+<--- JS stacktrace --->
+
+FATAL ERROR: invalid array length Allocation failed - JavaScript heap out of memory
+ 1: 0xa25510 node::Abort() [node]
+ 2: 0x9664d3 node::FatalError(char const*, char const*) [node]
+ 3: 0xb9a8be v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [node]
+ 4: 0xb9ac37 v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [node]
+ 5: 0xd56ca5  [node]
+ 6: 0xd2f4d5  [node]
+ 7: 0xeb8ebe  [node]
+ 8: 0xeb900d  [node]
+ 9: 0x1057553 v8::internal::Runtime_GrowArrayElements(int, unsigned long*, v8::internal::Isolate*) [node]
+10: 0x1426919  [node]
+[1]    156851 abort (core dumped)
